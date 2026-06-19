@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影视搜索 - 免费在线视频</title>
+  <meta name="description" content="免费在线视频影视搜索页，可按片名、年份、地区和类型查找高清电影电视剧。">
+  <meta name="keywords" content="免费在线视频,最新国产电影,热门电视剧,高清流畅播放,无插件,纯净观影,免费影视,在线观看,国产影视,热门电影,免费电视剧,高清视频">
+  <meta name="renderer" content="webkit">
+  <meta name="applicable-device" content="pc,mobile">
+  <link rel="stylesheet" href="assets/styles.css">
+  
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="免费在线视频">
+      <span class="brand-mark">影</span>
+      <span class="brand-text">免费在线视频</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a href="index.html" class="nav-link">首页</a>
+      <a href="categories.html" class="nav-link">分类</a>
+      <a href="rankings.html" class="nav-link">排行榜</a>
+      <a href="movies.html" class="nav-link">片库</a>
+      <a href="search.html" class="nav-link active">搜索</a>
+    </nav>
+    <form class="header-search" action="search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影视剧..." autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-toggle" type="button" aria-label="打开导航" data-menu-toggle>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <div class="mobile-panel" data-mobile-panel>
+    <form class="mobile-search" action="search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影视剧..." autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <nav aria-label="移动导航">
+      <a href="index.html" class="mobile-link">首页</a>
+      <a href="categories.html" class="mobile-link">分类</a>
+      <a href="rankings.html" class="mobile-link">排行榜</a>
+      <a href="movies.html" class="mobile-link">片库</a>
+      <a href="search.html" class="mobile-link active">搜索</a>
+    </nav>
+  </div>
+</header>
+<main class="page-main">
+  <section class="page-title">
+    <h1>影视搜索</h1>
+    <p>输入片名、年份、地区、题材或关键词，快速查找热门电影电视剧。</p>
+  </section>
+  <div class="search-box">
+    <input class="search-input" type="search" placeholder="搜索影视剧..." data-search-input autocomplete="off">
+    <button class="search-submit" type="button">搜索</button>
+  </div>
+  <section class="search-results" data-search-results></section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <strong>免费在线视频</strong>
+      <p>高清流畅播放，无插件纯净观影，精选热门电影电视剧。</p>
+    </div>
+    <nav aria-label="底部分类">
+      <a href="category-01.html">热播精选</a><a href="category-02.html">新片速递</a><a href="category-03.html">华语专区</a><a href="category-04.html">剧集连看</a><a href="category-05.html">高清电影</a><a href="category-06.html">悬疑犯罪</a><a href="category-07.html">动作冒险</a><a href="category-08.html">喜剧治愈</a>
+    </nav>
+  </div>
+</footer>
+<script src="assets/search-data.js"></script>
+<script src="assets/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
